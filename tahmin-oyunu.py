@@ -46,5 +46,7 @@ while hp > 0:
         print("YUKARI")
         hp -=1
 
+    if hp == 0:
+        print("HAK BİTTİ!")
 
 
