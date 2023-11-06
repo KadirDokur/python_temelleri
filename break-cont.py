@@ -1,5 +1,5 @@
 index = 0
-greetings = 'Hello Thereee'
+greetings = 'Hello There'
 
 for letter in greetings:
     print(f'index: {index} letter {greetings[index]}')
