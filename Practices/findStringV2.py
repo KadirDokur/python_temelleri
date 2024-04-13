@@ -2,19 +2,18 @@
 
 
 def find(array,word):
-    store = {}
+    store = []
     for index,item in enumerate(array):
         if (item==word):
-            store[index] = word
+            store.append(index+1)
 
     if len(store) == 0:
         print('Aranılan kelime dizde yok!')  
     else:      
-        for index,word in store.items():
-            print(f'{word} is at {index+1}. index')
-
+        print(f'{word} is present at indexes {store}')
             
-                   
+        
+
 words = ['Merhaba','benim','adım','piotr','knopp',
          'Merhaba','benim','adım','piotr','knopp',
          'Merhaba','benim','adım','piotr','knopp',
@@ -24,5 +23,4 @@ words = ['Merhaba','benim','adım','piotr','knopp',
 
 
 find(words,"piotr")
-
 
