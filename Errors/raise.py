@@ -1,6 +1,6 @@
 
 
-def cheack_password(psw):
+def check_password(psw):
     import re
     if len(psw) < 7:
         raise Exception("parola en az 7 karakter olmalıdır!")
@@ -20,6 +20,6 @@ def cheack_password(psw):
 password = "1234567aA@"
 
 try:
-    cheack_password(password)
+    check_password(password)
 except Exception as ex:
     print(ex)
