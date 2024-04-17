@@ -11,9 +11,7 @@ def find(array,word):
         print('Aranılan kelime dizde yok!')  
     else:      
         print(f'{word} is present at indexes {store}')
-            
-        
-
+               
 words = ['Merhaba','benim','adım','piotr','knopp',
          'Merhaba','benim','adım','piotr','knopp',
          'Merhaba','benim','adım','piotr','knopp',

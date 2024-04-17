@@ -12,9 +12,7 @@ def find(array,word):
     else:      
         for index,word in store.items():
             print(f'{word} is at {index+1}. index')
-
-            
-                   
+                  
 words = ['Merhaba','benim','adım','piotr','knopp',
          'Merhaba','benim','adım','piotr','knopp',
          'Merhaba','benim','adım','piotr','knopp',
