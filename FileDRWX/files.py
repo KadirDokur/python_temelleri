@@ -17,6 +17,8 @@
 # file = open("newfile.txt","a",encoding='utf-8')
 # file.write("\nPiotr Knop")
 # file.write("Piotr Knop\n")
+# file.write("Celil Hancı\n")
+# file.write("Tobias Reaper\n")
 # file.close()
 
 #"x" (Create) oluşturma. Dosya zaten varsa hata verir
