@@ -11,4 +11,4 @@ y = 10
 
 print("Before swapping: x =", x, ", y =", y)
 swap_integers(x, y)
-print("Before swapping: x =", x, ", y =", y)
+print("After swapping: x =", x, ", y =", y)
